@@ -1,0 +1,6 @@
+[Unit]
+Description=Run fan.pl
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/perl /var/shepherd/fan.pl
