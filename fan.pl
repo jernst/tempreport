@@ -36,7 +36,7 @@ foreach my $thermPath ( sort keys %$thermDev ) {
     }
 }
 my $fanOn = 0;
-if( $temperatures->{'Server closet'} > 30 ) {
+if( $temperatures->{'Server closet'} > 28 ) {
     if( $temperatures->{'Server closet'} - $temperatures->{'Office'} > 3 ) {
         $fanOn = 1;
     }
